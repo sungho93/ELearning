@@ -1,22 +1,59 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.elearning">
+    package="com.example.login">
+
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:icon="@drawable/logo3"
+        android:label="E-Lu"
+        android:roundIcon="@drawable/logo3"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        android:theme="@style/AppTheme.NoActionBar">
+        <activity android:name=".Splashscreen"
+            android:label="E-Lu.">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".firstActivity"></activity>
+        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Pop"
+            android:theme="@style/AppTheme.Pop"></activity>
+        <activity android:name=".Pop_java"
+            android:theme="@style/AppTheme.Pop"></activity>
+        <activity android:name=".Pop_c"
+            android:theme="@style/AppTheme.Pop"></activity>
+        <activity android:name=".Pop_discrete_mathmatics"
+            android:theme="@style/AppTheme.Pop"></activity>
+        <activity android:name=".Pop_db"
+            android:theme="@style/AppTheme.Pop"></activity>
+        <activity android:name=".Pop_os"
+            android:theme="@style/AppTheme.Pop"></activity>
+        <activity android:name=".Pop_android"
+            android:theme="@style/AppTheme.Pop"></activity>
+        <activity android:name=".Pop_ui"
+            android:theme="@style/AppTheme.Pop"></activity>
+        <activity android:name=".Pop_nosql"
+            android:theme="@style/AppTheme.Pop"></activity>
+        <activity android:name=".Pop_cpp"
+            android:theme="@style/AppTheme.Pop"></activity>
+        <activity android:name=".Pop_ai"
+            android:theme="@style/AppTheme.Pop"></activity>
+        <activity android:name=".Pop_algo"
+            android:theme="@style/AppTheme.Pop"></activity>
+        <activity android:name=".Pop_ds"
+            android:theme="@style/AppTheme.Pop"></activity>
     </application>
 
 </manifest>

@@ -1,2 +1,2 @@
 include ':app'
-rootProject.name='ELearning'
+rootProject.name='Login'

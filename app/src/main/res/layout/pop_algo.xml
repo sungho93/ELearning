@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary">
+
+    <TextView
+        android:text="Algorithm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp"
+        android:textColor="#ffff"
+        android:padding="5dp"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_gravity="center"/>
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:src="@drawable/profile" />
+
+    <TextView
+        android:drawableStart="@drawable/ic_person_blue_24dp"
+        android:drawableLeft="@drawable/ic_person_blue_24dp"
+        android:text=" Professor : Dr. Zhang Qian "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="2dp"
+        android:textColor="#ffff"
+        android:background="@color/colorPrimary"
+        android:padding="5dp"
+        android:textSize="15dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:drawableStart="@drawable/ic_query_builder_black_24dp"
+        android:drawableLeft="@drawable/ic_query_builder_black_24dp"
+        android:text=" Class Time : Wednesday [8][9]"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="1dp"
+        android:textColor="#ffff"
+        android:background="@color/colorPrimary"
+        android:padding="5dp"
+        android:textSize="15dp"
+        android:textStyle="bold"/>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="15dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:drawableStart="@drawable/ic_turned_in_black_24dp"
+            android:drawableLeft="@drawable/ic_turned_in_black_24dp"
+            android:text=" Description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimary"
+            android:background="#ffff"
+            android:padding="5dp"
+            android:textSize="15dp"
+            android:textStyle="bold"/>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:isScrollContainer="true"
+            android:background="#ffff">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:text=" This course is a basic specialized which designed for undergraduates majoring in software engineering. The algorithm plays an important role in computing science and computing practices. The purpose of this course is to explain the solution of practical problems for computer application, and teach the basic principles, methods and techniques of algorithm design and analysis, and cultivate students' ability of analysis and understanding for algorithm complexity. Firstly, it introduces the definition of computational complexity and basic methods of algorithm analysis, according to the representative non-numerical problems in the fields of computer science and software engineering, then it introduces several important algorithm design methods, which are divide and conquer method, dynamic programming method, greedy method, retrospective search method, branch and bound method and algorithm design practice and so on. It can both enable students to grasp various algorithms and grasp the basic methods and techniques of algorithm analysis."
+                    android:textColor="#000000"
+                    android:textSize="13dp"></TextView>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</LinearLayout>

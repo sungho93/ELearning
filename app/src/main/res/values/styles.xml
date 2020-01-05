@@ -8,15 +8,14 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
-    <style name = "buttonGroupStyle">
-        <!-- 去掉button默认样式-->
-        <item name="android:button">@null</item>item>
-        <item name  = "android:gravity">center</item>
-        <item name="android:layout_width">0dp</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_weight">1</item>
-        <item name="android:textSize">12sp</item>
-        <item name="android:textColor">@color/colorAccent</item>
+    
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
     </style>
 
+    <style name="AppTheme.Pop">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowCloseOnTouchOutside">true</item>
+    </style>
 </resources>
